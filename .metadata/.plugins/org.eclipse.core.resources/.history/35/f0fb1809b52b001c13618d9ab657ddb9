@@ -1,0 +1,12 @@
+
+public class Multiplicacion extends Operacion {
+	
+	 double multi;
+     
+	 public Multiplicacion(double num1, double num2) {
+	             
+	 super(num1, num2, '*');
+	 this.multi = num1 * num2;
+	 this.setRes(this.multi);
+
+}
